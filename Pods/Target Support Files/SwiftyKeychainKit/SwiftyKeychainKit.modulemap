@@ -1,6 +1,0 @@
-framework module SwiftyKeychainKit {
-  umbrella header "SwiftyKeychainKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
