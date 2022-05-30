@@ -20,7 +20,6 @@ class StorageImageViewController: UIViewController, UIImagePickerControllerDeleg
         super.viewWillAppear(animated)
         self.collectionView.reloadData()
         self.imageArray = Manager.shared.loadImages()
-//        Manager.shared.loadImageArray()
         debugPrint("Count elements \(Manager.shared.loadImages().count)")
     }
     
